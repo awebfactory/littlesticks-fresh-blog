@@ -18,6 +18,8 @@ export const handler: Handlers<Data> = {
 
 export default function PostPage(props: PageProps<Data>) {
   const { post } = props.data;
+  // awf vk: this is how the markdown is styled after being transformed to html
+  // console.log(gfm.CSS);
   return post
     ? (
       <>
